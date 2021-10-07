@@ -1,0 +1,19 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+int main(){
+	int SI,p,r,t;
+	float CI;
+	cout<<"enter the principle: "<<endl;
+	cin>>p;
+	cout<<"enter the rate: "<<endl;
+	cin>>r;
+	cout<<"enter the time: "<<endl;
+	cin>>t;
+	SI =(p*r*t)/100;
+    CI=p*(1+r/100),t;
+	cout<<"SI is: "<<SI<<endl;
+	cout<<"CI is: "<<CI<<endl;
+	
+	return 0;
+}
