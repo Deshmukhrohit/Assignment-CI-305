@@ -1,0 +1,12 @@
+ #include <iostream>
+ using namespace std;
+ int main(){
+ 	int radius ,a,P;
+ 	cout<<"enter the radius of Circle";
+ 	cin>>radius;
+ 	a = 3.14 * radius *radius;
+ 	P =2*3.14*radius;
+ 	cout<<"The area of Circle: "<<a<<endl;
+ 	cout<<"Thr Perimeter of Circle : "<<P<<endl;
+ 	return 0;
+ }
