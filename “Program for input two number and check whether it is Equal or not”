@@ -1,0 +1,35 @@
+/*
+“Program for input two number and check whether it is Equal or not” */
+
+
+
+#include <iostream>
+using namespace std;
+int main(){
+	int a,b;
+	cout<<"Enter the first number is: ";
+	cin>>a;
+	cout<<"Enter the second number is: ";
+	cin>>b;
+	if(a==b){
+		cout<<"Num is Equal"<<endl;
+	}
+	else{ 
+	    cout<<"Num is not Equal"<<endl;
+	}
+	return 0;
+}
+
+
+
+
+
+
+
+/*
+INPUT
+Enter the first number is: 25
+Enter the second number is: 25
+
+OUTPUT
+Num is Equal
